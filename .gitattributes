@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+nrdb.phr filter=lfs diff=lfs merge=lfs -text
+nrdb.psq filter=lfs diff=lfs merge=lfs -text
